@@ -19,6 +19,7 @@ Dashboard hiện đại: Giao diện Terminal chuyên nghiệp, trực quan sử
 Cảnh báo Telegram: Tự động gửi báo cáo chi tiết định dạng HTML qua Telegram Bot khi phát hiện các IP có mức độ đe dọa HIGH.
 
 ### Cấu trúc dự án
+```text
 nginx-log-analyzer/
 ├── main.py              # Entry point CLI (click + rich dashboard)
 ├── config.py            # Singleton settings đọc từ .env
@@ -39,7 +40,7 @@ nginx-log-analyzer/
     ├── test_parser.py   # 40 tests: regex, salvage, key schema
     ├── test_filter.py   # 60 tests: 6 signals, AbuseIPDB mock, sorting
     └── test_stats.py    # 53 tests: bandwidth, top IPs/paths
-
+```
 ### Hướng dẫn cài đặt và sử dụng
 
 1. Yêu cầu hệ thống
